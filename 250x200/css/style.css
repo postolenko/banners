@@ -210,7 +210,8 @@ a:active {
 
 .banner_250_200 {
     display: block;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 200px;
     margin: 50px;
     cursor: pointer;
