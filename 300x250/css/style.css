@@ -206,9 +206,9 @@ a:active {
     line-height: 0;
 }
 
-/*-- Banner 250X200 --*/
+/*-- Banner 300 X 250--*/
 
-.banner_250_200 {
+.banner_300_250 {
     display: block;
     width: 100%;
     max-width: 250px;
@@ -219,7 +219,7 @@ a:active {
     overflow: hidden;
 }
 
-.banner_250_200 .img-box {
+.banner_300_250 .img-box {
     display: block;
     width: 100%;
     height: 200px;
@@ -227,7 +227,7 @@ a:active {
     position: relative;
 }
 
-.banner_250_200 .img-box img {
+.banner_300_250 .img-box img {
     display: block;
     min-width: 100%;
     min-height: 100%;
@@ -243,7 +243,7 @@ a:active {
     transform: translate(-50%, -50%);
 }
 
-.banner_250_200 .mask {
+.banner_300_250 .mask {
     display: block;
     width: 100%;
     height: 100%;
@@ -274,17 +274,17 @@ a:active {
     transition-timing-function: ease;
 }
 
-.banner_250_200:hover .mask {
+.banner_300_250:hover .mask {
     top: 0;
 }
 
-.banner_250_200 .banner-header {
+.banner_300_250 .banner-header {
     width: 100%;
     height: 75px;
     padding: 8px 0;
 }
 
-.banner_250_200 h2 {
+.banner_300_250 h2 {
     font-family: Arial, Vardana, sans-serif;
     font-size: 12px;
     line-height: 15px;
@@ -293,7 +293,7 @@ a:active {
 
 }
 
-.banner_250_200 a.grey-link {
+.banner_300_250 a.grey-link {
     text-decoration: none;
     border-bottom: 1px solid #999999;
     font-family: Arial, Vardana, sans-serif;
@@ -305,28 +305,28 @@ a:active {
     top: -2px;
 }
 
-.banner_250_200 a.grey-link:link,
-.banner_250_200 a.grey-link:visited {
+.banner_300_250 a.grey-link:link,
+.banner_300_250 a.grey-link:visited {
     color: #999999;
     border-bottom: 1px solid #999999;
 }
 
-.banner_250_200 a.grey-link:active,
-.banner_250_200 a.grey-link.active {
+.banner_300_250 a.grey-link:active,
+.banner_300_250 a.grey-link.active {
     color: #ffffff;
     border-bottom: 1px solid transparent;
 }
 
-.banner_250_200 a.grey-link:hover {
+.banner_300_250 a.grey-link:hover {
     color: #ffffff;
     border-bottom: 1px solid transparent;
 }
 
-.banner_250_200 .desc {
+.banner_300_250 .desc {
 
 }
 
-.banner_250_200 .desc p {
+.banner_300_250 .desc p {
     font-family: Arial, Vardana, sans-serif;
     font-size: 12px;
     line-height: 16px;
@@ -334,7 +334,7 @@ a:active {
     color: #c3c3c3;
 }
 
-.banner_250_200 .bottom-block {
+.banner_300_250 .bottom-block {
     width: 100%;
     padding: 0 9px;
     position: absolute;
@@ -342,12 +342,12 @@ a:active {
     left: 0;
 }
 
-.banner_250_200 .price {
+.banner_300_250 .price {
     text-align: center;
     padding-bottom: 5px;
 }
 
-.banner_250_200 .price p {
+.banner_300_250 .price p {
     display: inline-block;
     vertical-align: baseline;
     margin: 3px 2%;
@@ -358,7 +358,7 @@ a:active {
     color: #be3a3a;
 }
 
-.banner_250_200 p.old-price {
+.banner_300_250 p.old-price {
     display: inline-block;
     vertical-align: baseline;
     position: relative;
@@ -369,7 +369,7 @@ a:active {
     color: #ffffff;
 }
 
-.banner_250_200 p.old-price:before {
+.banner_300_250 p.old-price:before {
     display: block;
     content: "";
     width: 100%;
@@ -380,7 +380,7 @@ a:active {
     background: #ffffff;
 }
 
-.banner_250_200 .green-pill {
+.banner_300_250 .green-pill {
     display: block;
     margin: 5px 0;
     padding: 9px 2%;
@@ -403,17 +403,17 @@ a:active {
     box-shadow: 0px 2px 0px 0px rgba(48, 72, 35, 0.004),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.75);
 }
 
-.banner_250_200 .green-pill:link,
-.banner_250_200 .green-pill:visited {
+.banner_300_250 .green-pill:link,
+.banner_300_250 .green-pill:visited {
 
 }
 
-.banner_250_200 .green-pill:active,
-.banner_250_200 .green-pill.active {
+.banner_300_250 .green-pill:active,
+.banner_300_250 .green-pill.active {
 
 }
 
-.banner_250_200 .green-pill:hover {
+.banner_300_250 .green-pill:hover {
     background-image: -moz-linear-gradient( 90deg, rgb(162,228,86) 0%, rgb(155,215,77) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(162,228,86) 0%, rgb(155,215,77) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(162,228,86) 0%, rgb(155,215,77) 100%);
@@ -422,22 +422,22 @@ a:active {
 
 @media only screen and (max-width: 480px) {
 
-    .banner_250_200 .mask {
+    .banner_300_250 .mask {
         position: initial;
         top: 0;
         background: transparent;
     }
 
-    .banner_250_200 .img-box {
+    .banner_300_250 .img-box {
         position: relative;
         top: 76px;
     }
 
-    .banner_250_200:hover .mask {
+    .banner_300_250:hover .mask {
         top: 0;
     }
 
-    .banner_250_200 .banner-header {        
+    .banner_300_250 .banner-header {        
         padding: 5px 3%;
         position: absolute;
         top: 0;
@@ -445,12 +445,12 @@ a:active {
         z-index: 2;
     }
 
-    .banner_250_200 .banner-header .inner {
+    .banner_300_250 .banner-header .inner {
         position: relative;
         z-index: 2;
     }
 
-    .banner_250_200 .banner-header:before {
+    .banner_300_250 .banner-header:before {
         display: block;
         content: "";
         width: 100%;
@@ -461,7 +461,7 @@ a:active {
         background-color: rgba(51, 51, 51, .9);
     }
 
-    .banner_250_200 .resp-position {
+    .banner_300_250 .resp-position {
         font-size: 0;
         line-height: 0;
         background: rgba(51, 51, 51, .9);
@@ -471,19 +471,19 @@ a:active {
         padding: 5px 3%;
     }
 
-    .banner_250_200 .desc {
+    .banner_300_250 .desc {
         display: inline-block;
         vertical-align: bottom;
         width: 58%;
         padding: 0 2% 0 0;
     }
 
-    .banner_250_200 .desc p {
+    .banner_300_250 .desc p {
         font-size: 12px;
         line-height: 14px;
     }
 
-    .banner_250_200 .bottom-block {
+    .banner_300_250 .bottom-block {
         display: inline-block;
         vertical-align: bottom;
         width: 42%;
@@ -491,22 +491,22 @@ a:active {
         position: relative;
     }
 
-    .banner_250_200 .price {
+    .banner_300_250 .price {
         padding-bottom: 0;
     }
 
-    .banner_250_200 p.old-price {
+    .banner_300_250 p.old-price {
         font-size: 12px;
         line-height: 16px;
     }
 
-    .banner_250_200 .price p {
+    .banner_300_250 .price p {
         margin: 3px 1%;
         font-size: 13px;
         line-height: 16px;
     }
 
-    .banner_250_200 .green-pill {
+    .banner_300_250 .green-pill {
         margin: 0;
         padding: 4px 2%;
         font-size: 9px;
@@ -515,4 +515,4 @@ a:active {
 
 }
 
-/*-- /Banner 250X200--*/
+/*-- /Banner --*/
