@@ -3,3 +3,4 @@
 # http://postolenko.github.io/banners/300x250/index.html
 # http://postolenko.github.io/banners/mobiledropdown/index.html
 # http://postolenko.github.io/banners/mobile_popup/index.html
+# http://postolenko.github.io/banners/mobile_timer/index.html
