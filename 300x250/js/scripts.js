@@ -41,7 +41,7 @@ $(document).ready(function() {
         var topCoord;
         var bannerHeader;
 
-        $( ".banner_250_200").bind({
+        $( ".banner_300_250").bind({
           mouseenter: function() {
 
             bannerMask = $(this).find(".mask");
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
         if( bodyWidth <= 480 ) {
 
-            $(".banner_250_200").each(function() {
+            $(".banner_300_250").each(function() {
 
                 var photoBanner = $(this).find(".img-box");
 
@@ -77,13 +77,13 @@ $(document).ready(function() {
 
         } else {
 
-            $(".banner_250_200").find(".img-box").css({
+            $(".banner_300_250").find(".img-box").css({
 
                 "top" : 0
 
             });
 
-            $(".banner_250_200").each(function() {
+            $(".banner_300_250").each(function() {
 
                 bannerMask = $(this).find(".mask");
                 $(this).find(".banner-header").css({"height" : "auto"});
