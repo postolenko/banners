@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+
+a {
+    text-decoration: none;
+}
+
+a,
+img {
+    outline: none;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance;
+    outline: none;
+}
+
+img {
+    outline: none;
+    border: 1px solid transparent;
+    border: none;
+}
+
+button:hover,
+button:active,
+a:hover,
+a:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*-------------------------------------------*/
+/* ----- REUSABLE COMPONENTS ------ */
+/*-------------------------------------------*/
+
+.offset-ziro {
+    font-size: 0;
+    line-height: 0;
+}
+
+/*-- Dropdown Banner--*/
+
+.mobile-content {
+    width: 320px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: #ededed;
+    border: 1px solid #dedede;
+}
+
+.dropdown_banner_wrapp {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 101vh;
+    left: 0;
+    background: rgba(255, 255, 255, .85);
+    border-top: 1px solid #dbdbdb;
+}
+
+.dropdown_banner {
+    width: 320px;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0 10px 8px 10px;
+}
+
+.close-banner-block {
+    min-height: 29px;
+    position: relative;
+    padding: 7px 10px;
+}
+
+.close-banner-block h2 {
+    display: none;
+    padding: 0 20px 0 0;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #555555;
+}
+
+.close-banner-block.active h2 {
+    display: block;
+}
+
+.close-banner {
+    display: block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.close-banner:before {
+    display: block;
+    content: "\2716";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+    color: #a5a5a5;
+}
+
+.dropdown_banner .banner-content .col-1 {
+    width: 43%;
+    float: left;
+}
+
+.dropdown_banner .banner-content .col-2 {
+    width: 57%;
+    padding: 0 0 0 4%;
+    float: right;
+}
+
+.dropdown_banner .img-box {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dropdown_banner .img-box img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dropdown_banner .discount {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 5px;
+    background: #db3434;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.dropdown_banner h3 {
+    display: block;
+    height: 49px;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.dropdown_banner .inner-row {
+    padding: 10px 0;
+}
+
+.dropdown_banner .inner-row .col-1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    float: none;
+}
+
+.dropdown_banner .inner-row  .col-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 51%;
+    float: none;
+}
+
+.dropdown_banner .price-block p {
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #be3a3a;
+}
+
+.dropdown_banner .price-block p.old-price {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.dropdown_banner .price-block p.old-price:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #333333;
+}
+
+.red-pill {
+    display: block;
+    background: #db3434;
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 1px 1%;
+    text-align: center;
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.dropdown_banner p {
+    font-family: Arial, Vardana, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #666666;
+}
+
+/*-- /Dropdown Banner --*/
+
+
