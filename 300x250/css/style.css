@@ -211,8 +211,8 @@ a:active {
 .banner_300_250 {
     display: block;
     width: 100%;
-    max-width: 250px;
-    height: 200px;
+    max-width: 300px;
+    height: 250px;
     margin: 50px;
     cursor: pointer;
     position: relative;
@@ -222,7 +222,7 @@ a:active {
 .banner_300_250 .img-box {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     position: relative;
 }
@@ -247,9 +247,10 @@ a:active {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 0 9px;
+    padding: 0 12px;
     position: absolute;
-    top: 125px;
+    /*top: 170px;*/
+    top: 0;
     left: 0;
     background: rgba(51, 51, 51, .9);
 
@@ -274,14 +275,14 @@ a:active {
     transition-timing-function: ease;
 }
 
-.banner_300_250:hover .mask {
+/*.banner_300_250:hover .mask {
     top: 0;
-}
+}*/
 
 .banner_300_250 .banner-header {
     width: 100%;
-    height: 75px;
-    padding: 8px 0;
+    height: 80px;
+    padding: 12px 0;
 }
 
 .banner_300_250 h2 {
@@ -323,7 +324,7 @@ a:active {
 }
 
 .banner_300_250 .desc {
-
+    margin: 7px 0 0 0;
 }
 
 .banner_300_250 .desc p {
@@ -336,7 +337,7 @@ a:active {
 
 .banner_300_250 .bottom-block {
     width: 100%;
-    padding: 0 9px;
+    padding: 0 10px 5px 10px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -344,16 +345,15 @@ a:active {
 
 .banner_300_250 .price {
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 .banner_300_250 .price p {
-    display: inline-block;
-    vertical-align: baseline;
-    margin: 3px 2%;
+    margin: 2px 2%;
+    text-align: center;
     font-family: Arial, Vardana, sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 25px;
     font-weight: 600;
     color: #be3a3a;
 }
@@ -383,7 +383,7 @@ a:active {
 .banner_300_250 .green-pill {
     display: block;
     margin: 5px 0;
-    padding: 9px 2%;
+    padding: 13px 2%;
     font-family: Arial, Vardana, sans-serif;
     font-size: 12px;
     line-height: 16px;
@@ -438,7 +438,7 @@ a:active {
     }
 
     .banner_300_250 .banner-header {        
-        padding: 5px 3%;
+        padding: 7px 5%;
         position: absolute;
         top: 0;
         left: 0;
@@ -468,13 +468,13 @@ a:active {
         position: absolute;
         bottom: 0;
         left: 0;
-        padding: 5px 3%;
+        padding: 0 5% 5px 5%;
     }
 
     .banner_300_250 .desc {
         display: inline-block;
         vertical-align: bottom;
-        width: 58%;
+        width: 59%;
         padding: 0 2% 0 0;
     }
 
@@ -486,7 +486,8 @@ a:active {
     .banner_300_250 .bottom-block {
         display: inline-block;
         vertical-align: bottom;
-        width: 42%;
+        width: 41%;
+        text-align: right;
         padding: 0 0 0 2%;
         position: relative;
     }
@@ -501,7 +502,9 @@ a:active {
     }
 
     .banner_300_250 .price p {
-        margin: 3px 1%;
+        display: inline-block;
+        vertical-align: baseline;
+        margin: 3px 3%;
         font-size: 13px;
         line-height: 16px;
     }
