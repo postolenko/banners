@@ -49,6 +49,19 @@ $(document).ready(function() {
 
     });
 
+    $(function() {
+
+        $(".dropdown_banner_wrapp").each(function() {
+
+            var timeAttr = parseInt( $(this).attr("data-start-show") );
+
+            $(this).delay(timeAttr).animate({
+                "bottom" : 0
+            }, 300);
+
+        });
+
+    });
 
     // function getFooterPosition() {
 
